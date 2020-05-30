@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<style type="text/css">
+		#display{
+	border:  1px solid black;
+	width:500px;
+	height:200px;
+	font-size:30px;
+	text-align:center;
+	line-height:200px;
+	color:blue;
+
+
+		}
+	#myInput{
+		width:500px;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="display">test </div>
+	<input type="test" name="word"  id="myInput">
+	<script type="text/javascript">
+	var myInput = document.getElementById('myInput');
+	var display = document.getElementById('display');
+
+	myInput.addEventListener('keyup',handler);
+
+	function handler(){
+		display.innerText = myInput.value;
+	}
+
+	</script>
+</body>
+</html>
