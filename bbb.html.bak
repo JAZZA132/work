@@ -27,7 +27,11 @@
 			font-size:2em;
 		}
 		.nav-link{
-			color:#767370;
+<<<<<<< HEAD
+			color:blue;
+=======
+			color:red;
+>>>>>>> dog
 		}
 		.shop-bar-bg{
 			background-color:#D5D4D4;
