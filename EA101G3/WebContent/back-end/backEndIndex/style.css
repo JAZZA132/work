@@ -1,0 +1,364 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+	;
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/**{
+    margin: 0;
+    padding: 0;
+    }*/
+html, body {
+	height: 100%;
+	background-image: url("images/shiba-inu.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+  
+/*上方導覽列*/
+
+
+.icon{
+	
+	padding-bottom:20px;
+	
+	
+}
+
+.downarrow{
+	padding-bottom:3px;
+	
+	
+}
+
+
+/*導覽列圖標*/
+.icon a {
+	font-family: 'Pacifico';
+	font-size: 38px;
+	color: lightcoral !important;
+	text-shadow: 1px 0px 2px black;
+	
+	
+}
+
+.icon a:hover {
+	
+	text-decoration:none;
+	
+}
+
+.navbar {
+	height: 80px;
+	font-size: 35px;
+	color: 	cornsilk;
+	box-shadow: 0px 0px 8px black;
+/* 	background-color: #373737; */
+/* background: linear-gradient(to right,black,darkslategray); */
+/* background: linear-gradient(to right,teal,cadetblue); */
+background: linear-gradient(to left,teal,darkslategray);
+}
+
+.logout{
+	padding-top: 2px;
+	max-width:400px;
+	font-size: 30px;
+	height: 75px;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+}
+
+#logoutbtn{
+	text-decoration:none;
+	
+	
+}
+
+.container-fluid {
+	position: relative;
+	top: 80px;
+	min-height: 100%;
+}
+
+/*會員登入後照片*/
+.mem-pic {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+/* 	margin-left: 5px; */
+
+}
+
+.mem-name{
+	text-shadow: black 1px 1px 0px;
+	font-size: 26px;
+}
+
+
+
+.navbar .btn{
+	
+	font-size: 20px;
+	color: snow;
+	margin-bottom: 7px;
+	box-shadow: 0 2px 1px 1px black;
+	
+}
+
+.logoutForm{
+	
+	display:inline;
+}
+
+
+/*側邊欄*/
+.aside {
+	line-height: 45px;
+	font-size: 22px;
+	/*background-color: #4A78A8;  */
+	padding-top: 5px;
+	background-color: rgba(0,0,0,0.6);
+	text-shadow: 2px 1px 1px black;
+	min-height: 100%;
+	right:20px;
+	
+}
+
+
+/*側邊欄文字靠左*/
+.nav{
+	text-align: left;
+	margin-left:20px;
+}
+/*側邊欄內清單*/
+.nav .nav-item .nav-link {
+	letter-spacing: 8px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 60px;
+	padding-top: 10px;
+	overflow: hidden;
+	line-height: 35px;
+	transition: all 0.5s;
+}
+.nav .nav-item .nav-link a{
+text-decoration:none;
+}
+
+
+
+/*側邊欄內清單(單一功能)*/
+.nav .nav-item-single a {
+	letter-spacing: 8px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 50px;
+	line-height: 35px;
+	padding-top: 5px;
+}
+
+/*側邊欄內清單hover*/
+.nav .nav-item .nav-link:hover {
+	height: 220px;
+	cursor: pointer;
+	background-color: rgba(110, 160, 160, 0.45);
+	
+
+}
+
+/*側邊欄內清單的第二層清單*/
+.nav-link ul li {
+	padding-top: 5px;
+	right:5px;
+	display: block;
+	font-size: 17px;
+	letter-spacing: 1px;
+	transition: all 0.8s;
+}
+
+.nav-link ul li a:hover {
+	display: block;
+	font-size: 17px;
+	color:lightcoral;
+}
+
+/*側邊欄內清單的第二層清單連結*/
+.nav-link ul li a {
+	color: white;
+}
+
+/*側邊欄內清單(單一功能)連結*/
+.nav .nav-item-single a {
+	letter-spacing: 8px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 60px;
+	width: 100%;
+	line-height: 35px;
+	padding-top: 10px;
+}
+/*側邊欄內清單(單一功能)連結hover*/
+.nav .nav-item-single a:hover {
+	cursor: pointer;
+	background-color: rgba(110, 160, 160, 0.45);
+	
+}
+
+/*主內容標題*/
+.mainTitle {
+	letter-spacing: 8px;
+	font-family: 'Noto Sans TC';
+	color: #42454C;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 20px;
+}
+
+/*主內容標題下分隔線*/
+.mainTitlehr {
+	border: 2px solid lightcoral;
+}
+/*主內容*/
+.main {
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 20px 10px 20px 10px;
+	float: left;
+	min-height: 900px;
+	background: rgba(255, 255, 255, 0.93);
+	text-align: left;
+	border-radius: 7px;
+	margin-top: 8px;
+	margin-bottom: 108px;
+	right: 8px;
+}
+
+/*頁尾*/
+footer {
+	float: left;
+	height: 100px;
+	width: 100%;
+/* 	background: linear-gradient(black,darkslategray); */
+/*     background: -webkit-linear-gradient(left,yellow,red); */
+background: linear-gradient(to left,darkslategray,teal);
+	color: cornsilk;
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1228px) { 
+.nav .nav-item .nav-link {
+	letter-spacing: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 60px;
+	padding-top: 10px;
+	overflow: hidden;
+	line-height: 35px;
+	transition: all 0.5s;
+}
+.nav .nav-item-single a{
+	letter-spacing: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 50px;
+	line-height: 35px;
+	padding-top: 5px;
+}
+svg{
+	display:none;
+}
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1228px) and (max-width: 1379px) { 
+
+.nav .nav-item .nav-link {
+	letter-spacing: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 60px;
+	padding-top: 10px;
+	overflow: hidden;
+	line-height: 35px;
+	transition: all 0.5s;
+}
+.nav .nav-item-single a{
+	letter-spacing: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 50px;
+	line-height: 35px;
+	padding-top: 5px;
+}
+.downarrow{
+	display:none;
+}
+
+	
+}
+
+@media (min-width: 1380px) and (max-width: 1596px){ 
+.nav .nav-item .nav-link {
+	letter-spacing: 2px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 60px;
+	padding-top: 10px;
+	overflow: hidden;
+	line-height: 35px;
+	transition: all 0.5s;
+}
+.nav .nav-item-single a{
+	letter-spacing: 2px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	opacity: 0.9;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 50px;
+	line-height: 35px;
+	padding-top: 5px;
+}
+
+}
